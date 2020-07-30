@@ -1,0 +1,51 @@
+\chapter{SM-Pion Decay}
+\label{ch:SM-PionDecay}
+The decay of a charged pion can be described in the framework of chiral perturbation theory.
+The applicable terms of the Effective Lagrangian regarding the leptonic charged pion decay are \cite{Scherer:2002tk} 
+\begin{align*}
+\mathcal{L} \supset &-\frac{g}{2\sqrt{2}}\sum_{l=e,\mu}\left[W_\mu^+\bar{\nu}_l \gamma^\mu(1-\gamma_5)l +W_\mu^-\bar{l}\gamma^\mu(1-\gamma_5)\nu_l\right]\\
+&-g\frac{F_0 V_{ud}}{2}\left[ W^+_\nu\partial^\nu\pi^-+W^-_\nu\partial^\nu\pi^+\right]
+\end{align*}
+where $g$ is the SU(2) gauge coupling, $V_{ud}$ the Cabibbo-Kobayashi-Maskawa matrix element for the up- and down-quark and $F_0$ the pion-decay constant.
+Now consider the decay to the lepton $l$ and its neutrino $\nu_l$ with the following Feynman diagram:
+\begin{figure}[!h]
+\centering
+\begin{tikzpicture}
+\begin{feynman}
+\vertex (a) {\(\pi^{+}\)};
+\vertex [right=of a] (b);
+\vertex [right=of b] (c);
+\vertex [above right=of c] (f1){\(\nu_l\)};
+\vertex [below right=of c] (f2){\(l^+\)};
+\diagram* {
+(a) -- [scalar] (b) -- [boson, edge label'=\(W^{+}\)] (c),
+(c) -- [fermion] (f1),
+(c) -- [anti fermion] (f2)
+};
+\end{feynman}
+\end{tikzpicture}
+\end{figure}
+Using the Fermi constant
+\begin{equation}
+G_f= \frac{g^2}{4\sqrt{2}M_w^2}
+\end{equation}
+it leads to the associated decay width
+\begin{equation}
+\label{eq:Pion_Wdth}
+\Gamma = \frac{G_f^2 |V_{ud}|^2}{4\pi}F_0^2 m_\pi m_l^2\left(1-\frac{m_l^2}{m_\pi^2}\right)^2
+\end{equation}
+where the factor $\sim m_l^2$ points to the helicity suppression of the charged pion decays to leptons. Intuitively this is to to the pions spin being 0, so that both final states fermions have to have opposite spin alignment. Since its a two body decay, the momentum also points in opposite directions so that both particles have the same helicity. Now from the weak interaction only couples to the left chiral neutrino so since its massless its helicity is also left-handed. So the positron is also left handed which suppresses the decay since it was produced as a left chiral anti particle (for massless particles, left chiral antiparticles have right helicity) and need a mass insertion to be allowed.
+After using the lifetime of the pion of $2.6\cdot 10^{-8}s$ to fix the value of $F_0$ equation \ref{eq:Pion_Wdth} leads to the branching ratio to first order
+\begin{equation}
+\frac{\Gamma(e^+ \nu_e)}{\Gamma(\mu^+ \nu_\mu)}=\frac{m_e^2}{m_\mu^2}\frac{\left(1-\frac{m_e^2}{m_\pi^2}\right)^2}{\left(1-\frac{m_\mu^2}{m_\pi^2}\right)^2} \approx 1.28\cdot 10^{-4}
+\end{equation}.
+This observable can be measured more easily by including the decays with photons.
+Work done by Cirigliano and Rosell \cite{PhysRevLett.99.231801} calculates its value to two loop order in chiral perturbation theory as
+\begin{equation}
+R^\pi_{e/\mu} \equiv \frac{\Gamma(e^+ \nu_e(\gamma))}{\Gamma(\mu^+ \nu_\mu(\gamma))}=(1.2352	\pm0.0001)\cdot 10^{-4}
+\end{equation}
+which is in good agreement with the experimental value of
+\begin{equation}
+R^\pi_{e/\mu} =(1.2344\pm 0.0023\text{(stat.)} \pm 0.0019\text{(syst.)})\cdot 10^{-4}
+\end{equation}
+found by Aguilar-Arevalo \cite{PhysRevLett.115.071801}.

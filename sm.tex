@@ -1,0 +1,319 @@
+\chapter{Standard Model of Particle Physics}
+\label{ch:sm}
+This sections describes briefly the basic structure of the Standard Model (SM), its success and most important for this work, a few of its shortcomings.
+\section{Basic Principles and Yang Mills Theory}
+To start off, lets look at some massless fermion described by the field $\Psi$. Since any mass-term or interaction is absent, the Lagrangian contains only the kinetic term 
+\begin{equation}
+\label{eq:SM_EqGlobal}
+\mathcal{L}= i\bar{\Psi}\slashed{\partial} \Psi .
+\end{equation}
+Now lets look at this in light of a global SU(N) transformation of the form 
+$\Psi \rightarrow \Psi'=U\Psi$ where $U=\exp\left(i\alpha_aT^a\right)$ , $a$ is an index running from 1 to $(N^2-1)$, $\alpha_a$ are some coefficients and $T^a$ are generators of our group. In other words, $\Psi$ lies in the fundamental representation of this group. Since $\bar{\Psi}$ transforms like $\bar{\Psi}'=\bar{\Psi}U^\dagger$ and $U$ commutes with the derivative, equation \ref{eq:SM_EqGlobal} is invariant under this transformation. Since it acts at every point in space-time the same it is called global transformation.\\
+A more interesting situation arises if the transformation changes from point to point in space time. In other words, if the coefficients $\alpha_a$ are functions of $x_\mu$. Under this local transformation, equation \ref{eq:SM_EqGlobal} introduces a term proportional to $\gamma_\mu\partial^\mu \alpha_a(x)$.
+To get rid of this variant term, one introduces the gauge covariant derivative similarly to that of general theory of relativity as
+\begin{equation}
+D_\mu\Psi=(\partial_\mu+igA^a_\mu T^a)\Psi
+\end{equation}
+where the newly introduced gauge fields $A_\mu^a$ lie in the adjoint representation and transform infinitesimally as
+\begin{equation}
+A_\mu^a \rightarrow {A'}_\mu^a=A_\mu^a-f^{abc}\alpha^b(x)A_\mu^c-\frac{1}{g}\partial_\mu \alpha^a(x)
+\end{equation}
+where $f^{abc}$ are the properly normalised structure constants of the gauge group and $g$ is a parameter that can later be defined as the gauge coupling. After exchanging the derivative in equation \ref{eq:SM_EqGlobal} with the gauge covariant derivative it is again invariant. The gauge fields do not possess any dynamics now. To cure that, an invariant kinetic term has to be added.
+The corresponding field strength tensor can be written as the Lie bracket of two covariant derivatives like
+\begin{equation}
+F_{\mu\nu}=F^a_{\mu\nu}T^a \equiv \frac{1}{ig}\left[ D_\mu,D_\nu\right] .
+\end{equation}
+This can then be used to construct the full Yang-Mills Lagrangian
+
+\begin{equation}
+\mathcal{L}= i\bar{\Psi}\slashed{D} \Psi-\frac{1}{4}\Tr\left(F_{\mu\nu}F^{\mu\nu}\right) .
+\end{equation}
+By demanding the theory to be locally gauge invariant, one ends up with interactions between the fermion fields and the necessarily introduced gauge fields and even depending on the structure of the group self interactions.\\
+To construct the full standard model Lagrangian one chooses the gauge group to be
+\begin{equation}
+\text{SU(3)}_C\otimes\text{SU(2)}_L\otimes\text{U(1)}_Y .
+\end{equation}
+
+\section{Field Content}
+\begin{table}[H]
+\centering
+\begin{tabular}{|cccc|}
+\hline
+Name & Field & Lorentz Rep. & $\text{SU(3)}_C\otimes\text{SU(2)}_L\otimes\text{U(1)}_Y$ Rep.\\ 
+\hline 
+Quarks & $Q_i=(u_{iL},d_{iL})^T$ & $(1/2,0)$ & $\textbf{3}\otimes\textbf{2}\otimes 1/3$ \\ 
+ & $u_{iR}$ & $(0,1/2)$ & $\textbf{3}\otimes\textbf{1}\otimes 4/3$\\ 
+ & $d_{iR}$ & $(0,1/2)$ & $\textbf{3}\otimes\textbf{1}\otimes -2/3$\\ 
+Leptons & $L_i=(\nu_{iL},e_{iL})$ & $(1/2,0)$  & $\textbf{1}\otimes\textbf{2}\otimes -1$ \\ 
+ & $e_{iR}$ & $(0,1/2)$ & $\textbf{1}\otimes\textbf{1}\otimes -2$ \\ 
+Gauge Fields & $G_\mu^a T^a_{\text{SU(3)}}$ & $(1/2,1/2)$ & $\textbf{8}\otimes\textbf{1}\otimes 0$ \\ 
+ & $W_\mu^b T^b_{\text{SU(2)}}$ & $(1/2,1/2)$ & $\textbf{1}\otimes\textbf{3}\otimes 0$ \\ 
+ & $B_\mu$ & $(1/2,1/2)$ & $\textbf{1}\otimes\textbf{1}\otimes 0$ \\ 
+Higgs Field & $\Phi=(\phi^+,\phi^0)^T$ & $(0,0)$ & $\textbf{1}\otimes\textbf{2}\otimes 1$ \\ 
+\hline 
+\end{tabular} 
+\end{table}
+\section{Electroweak Theory}
+From experiments we know that the force carriers whose coupling depends on the chirality of the fermions are massive. In the standard model, these interactions are modelled by the Glashow-Weinberg-Salam theory part $\text{SU(2)}_L\otimes\text{U(1)}_Y$. But a mass term for the gauge bosons of the form $1/2 m^2 W^\mu W_\mu$ cannot be added by hand, since it breaks gauge invariance explicitly. By the same reason Dirac mass terms $-m(\bar{e}_Re_L+\bar{e}_L e_R)$ are forbidden, since the left handed electron in this case transforms differently to the right handed component.
+A way out of this problem is to break the symmetry spontaneously with the Brout-Englert-Higgs mechanism.
+
+To this end one needs to add two more parts to the Lagrangian. Firstly the Higgs part
+\begin{equation}
+\mathcal{L}_\text{Higgs}=\left(D_\mu\Phi\right)^\dagger \left(D^\mu\Phi\right)+\mu^2\Phi^\dagger\Phi-\lambda\left(\Phi^\dagger\Phi\right)^2
+\end{equation}
+where $\mu^2>0$. This introduces interactions between the Higgs field and the SU(2) gauge fields and a Mexican hat shaped potential for the Higgs field itself.
+This part will give the mass terms for the gauge field. The fermion fields need another part that couples to the Higgs field via Yukawa couplings:
+\begin{equation}
+\mathcal{L}_\text{Yukawa}= -G_{ei}\left(\bar{L}_i\Phi e_{iR}+\bar{e}_{iR}\Phi^\dagger L_i\right) .
+\end{equation}
+For $\mu^2>0$ the Higgs potential lets the Higgs field develop a non zero vacuum expectation value (VEV) which breaks the symmetry.
+One may then chose the unitary gauge as gauge fixing and write the field around the potential minimum as :
+\begin{equation}
+\Phi=\frac{1}{\sqrt{2}}\begin{pmatrix}
+0\\v+h(x)
+\end{pmatrix}
+\end{equation}
+where $v=\mu/\sqrt{\lambda}$.
+The kinetic term for the $\Phi$ field can then be expanded to give
+\begin{align}
+\left(D_\mu\Phi\right)^\dagger \left(D^\mu\Phi\right)= &\frac{1}{2}\partial_\mu h\partial^\mu h+\frac{1}{4}g^2(v+h)^2W^-_\mu W^{+\mu}\\&+\frac{1}{8}(v+h)^2\begin{pmatrix}
+W^3_\mu &B_\mu
+\end{pmatrix}
+\begin{pmatrix}
+g^2&-g'g\\
+-g'g&g'^2
+\end{pmatrix}
+\begin{pmatrix}
+W^{3\mu}\\
+B^\mu
+\end{pmatrix}
+\label{eq:HiggsKin}
+\end{align}
+where $W1$ and $W^2$ have been combined to the charge eigenstate $W^{\pm\mu}=\frac{1}{\sqrt{2}}(W^{1\mu} \mp i W^{2\mu})$ which is now massive with mass $m_W=gv/2$.
+The last term in equation \ref{eq:HiggsKin} involves the mixing between $W^3$ and $B$. The mass eigenstates are extracted by a an orthogonal transformation with angle $\theta_W$ and results in
+\begin{equation}
+\frac{1}{8}(v+h)^2\begin{pmatrix}
+W^3_\mu &B_\mu
+\end{pmatrix}
+\begin{pmatrix}
+g^2&-g'g\\
+-g'g&g'^2
+\end{pmatrix}
+\begin{pmatrix}
+W^{3\mu}\\
+B^\mu
+\end{pmatrix}\supset	\frac{1}{2}
+\begin{pmatrix}
+Z_\mu&A_\mu
+\end{pmatrix}
+\begin{pmatrix}
+m_Z^2&0\\
+0&0
+\end{pmatrix}
+\begin{pmatrix}
+Z_\mu\\A_\mu
+\end{pmatrix}
+\end{equation}
+with $Z_\mu = \cos \theta_W W^3_\mu-\sin\theta_W B_\mu$,$A_\mu = \sin \theta_W W^3_\mu+\cos\theta_W B_\mu$, $\tan \theta_W=g'/g$ and $m_Z=v\sqrt{g^2+g'^2}/2$. This way, three gauge bosons acquired mass, while the photon remains massless as required by gauge invariance.
+After SSB the Yukawa Lagrangian now contains terms like $-G_{ei}v/\sqrt{2}(\bar{e}_{iL}e_{iR}+\bar{e}_{iR}e_{iL})$ where the leptons have now acquired the mass $m_{ei}\equiv G_{ei}v/\sqrt{2}$.
+
+What is still left out is how the quarks get mass terms. The same structure as for the leptons can only be used for the down type quark. This would violate the $U(1)$ gauge symmetry for the up-type quark. Here a $Y=-1$ field is needed. This can be constructed from the already existing Higgs field by $\widetilde{\Phi}=i\sigma_2\Phi^*$ without the introduction of another field. This then leads to the Yukawa couplings
+\begin{equation}
+\mathcal{L}_\text{Yukawa Quarks} = -G_{uij}\bar{Q}_i\widetilde{\Phi}u_{jR}-G_{dij}\bar{Q}_i\Phi d_{jR}+ \text{h.c.}
+\end{equation} 
+where the couplings are now a pair of three by three matrices. This generalisation could be also done with the lepton couplings. But since the neutrinos are massless, one can redefine the lepton doublet and the singlet each independently by using unitary transformations such that the Yukawa-couplings and thus the mass matrix is diagonal. Then the mass and weak-gauge eigenstates coincide. The weak charged current interaction in this sector are:
+\begin{equation}
+\mathcal{L}\supset-\frac{g}{\sqrt{2}}\left(\bar{\nu}_{iL}\gamma^\mu e_{iL} W_\mu^+ +\bar{e}_{iL}\gamma^\mu\nu_{iL} W_\mu^-\right).
+\end{equation}
+Here it's straightforward to see that the standard model contains three accidental global $U(1)$ symmetries, one factor for each lepton generation. The associated conserved Noether charges are the electron, muon and tau numbers.
+
+The mass diagonalization is no as straightforward in the quark sector. Here the redefinition freedom only allows three unitary matrices to diagonalise both Yukawa matrices at the same time, which is not generally possible and induces as a consequence flavour mixing and a CP-violating phase. After the change to the mass-eigenbasis this is parametrised  in the weak interaction terms by the Cabibbo-Kobayashi-Maskawa (CMK) matrix:
+\begin{equation}
+\mathcal{L}\supset -\frac{g}{\sqrt{2}}\left(\bar{u}_{iL}\gamma^\mu \left(V_\text{CKM}\right)_{ij}d_{jL}W_\mu^++\bar{d}_{iL}\gamma^\mu\left(V_\text{CKM}\right)^*u_{jL}W_\mu^-\right).
+\end{equation}
+Because of this there are two $U(1)$ factors less, nevertheless one remains. Namely the rotation of all quark fields simultaneously regardless of the generation. With the assigned charge to each quark of $\frac{1}{3}$ the conserved quantity is the baryon number.
+All four accidental symmetries have been extensively experimentally tested since popular theories beyond the standard model such as R-Parity violating SUSY contain lepton family number violating interactions.
+
+\section{Strong Interaction}
+The remaining gauged SU(3) factor results in the strong interaction QCD. Here the symmetry remains intact so the gauge bosons (gluons) remain massless. The running of the coupling constant splits the treatment of these interactions in two distinct regions accessible by experiment.  At momentum transfers or energy scales much larger than 1GeV lies the perturbative regime where the coupling constant is small enough to be used in an expansion. However at lower energies other techniques have to be used. Here either the theory has to be solved completely, for example numerically in lattice QCD, or an effective theory has to be employed. One such effective theory is the chiral perturbation theory, that will be used in the coming chapters to calculate the pion decay. To this end one observes that the QCD Lagrangian up to the mass terms for quarks obeys a global $SU(3)_L\otimes SU(3)_R\otimes U(1)_V$ symmetry. Comparing the mass of the lightest hadrons like the pions or the proton to the sum of masses of the constituent quarks, one sees that this treatment is a valid first approximation for at least $m_u=m_d=m_s=0$ all well below one GeV. In this limit, the QCD Lagrangian 
+\begin{equation}
+\mathcal{L}=\sum_{i=u,d,s} (i\bar{q}_{iR}i\slashed{D}q_{iR}+i\bar{q}_{iR}i\slashed{D}q_{iR})-\frac{1}{4}\Tr\left(F_{\mu\nu}F^{\mu\nu}\right)
+\end{equation}
+is invariant under 
+\begin{equation}
+\begin{pmatrix}
+u_{R/L}\\
+d_{R/L}\\
+s_{R/L}
+\end{pmatrix}
+\rightarrow
+U_{R/L} \begin{pmatrix}
+u_{R/L}\\
+d_{R/L}\\
+s_{R/L}
+\end{pmatrix}
+\end{equation}
+where $U_{R/L}$ are any global SU(3) matrices, so it has a classical global $SU(3)_L\otimes SU(3)_R$ symmetry. This results in 18 conserved Noether-currents.
+The Nambu-Goldstone bosons $\phi_a$ associated with linear combinations of these currents will be taken as the new dynamical degrees of freedom. 
+A subset is then rearranged to the SU(3) matrix
+\begin{equation}
+\phi = \begin{pmatrix}
+\pi^0+\frac{1}{\sqrt{3}}\eta & \sqrt{2}\pi^+ & \sqrt{2}K^+\\
+\sqrt{2}\pi^- & -\pi^0+\frac{1}{\sqrt{3}}\eta& \sqrt{2}K^0\\
+\sqrt{2}K^- & \sqrt{2}\bar{K}^0 & -\frac{2}{\sqrt{3}}\eta
+\end{pmatrix}
+\end{equation}
+that is used to form the effective Lagrangian 
+\begin{equation}
+\mathcal{L}=\frac{F_0^2}{4}\Tr(\partial_\mu U(\partial^\mu U)^\dagger)
+\end{equation}
+where $U= \exp( i\phi/F_0)$ and the parameter $F_0$ that needs to be fixed. This then serves as a starting point to the full effective theory including the coupling to the weak interactions
+\begin{equation}
+\mathcal{L}\supset -\frac{g}{\sqrt{2}}\frac{F_0}{2}\Tr(W_\mu^+ T_++h.c.)\partial^\mu \phi)
+\end{equation}
+with
+\begin{equation}
+T_+=\begin{pmatrix}
+0&V_{ud}&V{us}&0\\0&0&0\\0&0&0
+\end{pmatrix}.
+\end{equation}
+A complete derivation of this can be found for example in ref.\cite{Scherer:2002tk}.
+This enables one to calculate the pion decay width and fix $F_0$ by comparison to the experimental value.
+\section{Signs of Physics beyond the SM}
+Despite the extraordinary predictive power of the Standard Model only few phenomena are found to be in contradiction to it. Some of these will be described in the following chapter. Some might be patched in the current framework, but some need a new framework that at most looks like the standard model at small energy scales. 
+
+\paragraph{Neutrino Masses}
+Neutrinos produced for example in $\beta$ decays are always reconstructed as left-handed particles and are therefore modelled as left chiral fields in the standard model, where the interaction eigenstates coincide with the mass eigenstate, because no mixing can occur in this framework.
+Since a Dirac mass term in the Lagrangian would require a right chiral neutrino field, such a mass-term is absent. \\
+But experiments width solar, reactor, atmospheric and accelerator neutrinos found evidence for neutrino oscillations, that is neutrinos change flavour while propagating. This in turn demands the mass differences between flavours to be non zero. So by this argument alone two flavours have to be massive. In other words: mass and interaction eigenstates are different and mixing has to occur. 
+A complete theory needs to explain how neutrinos acquire the masses and why these masses are so many orders of magnitude smaller than the other particles.
+
+\paragraph{Muon Anomalous Magnetic Moment}
+The magnetic moment of a lepton $l$ for example is given by $\vec{M}=	g_l  e \vec{S} / 2m_l$. The Dirac equation requires the gyromagnetic ratio to be $g_l=2$. But higher loop corrections have to be accounted for. To parametrise that, the anomalous magnetic moment is defined to be 
+\begin{equation}
+a_l \equiv \frac{g_\mu-2}{2}.
+\end{equation}
+These corrections arise in loop diagrams. For example the 1 loop correction due to QED in figure \ref{fg:QEDCorrection} results in $a_l=\frac{\alpha}{2\pi}$ first found by Julian Schwinger. 
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\begin{feynman}
+\vertex (a) {\(l^{+}\)};
+\vertex [above right=of a] (v1);
+\vertex [above right=of v1] (c);
+\vertex [below right=of c] (v2);
+\vertex [above=of c] (f) {\(\gamma\)};
+\vertex [below right=of v2] (b){\(l^{+}\)};
+\diagram* {
+(v1) -- [boson, edge label'=\(\gamma\)] (v2),
+(a) -- [fermion] (v1) -- [fermion] (c) -- [fermion] (v2) -- [fermion] (b),
+(c) -- [boson] (f)};
+\end{feynman}
+\end{tikzpicture}
+\caption{1 Loop QED correction to $	a_l$}
+\label{fg:QEDCorrection}
+\end{figure}
+The anomalous magnetic moment of the electron has been calculated up to the tenth order in QED \cite{Aoyama:2017uqe} which involve some 6,354 diagrams to be evaluated. At this precision even hadronic and weak corrections have to be included. This results in the theory prediction of  $a_e=1 159 652 182.032 (13)(12)(720)\cdot 10^{-12}$.
+The most precise experimental value to this day taken by suspending electrons in a Penning trap by Hanneke \cite{Hanneke:2010au}	 deviates only by $a_e(\text{Exp.})-a_e(\text{theory})=(-1.30\pm0.77)\cdot 10^{-12}$ from the theoretical value. This renders the anomalous magnetic moment of the electron the best prediction at an astonishing precision.
+
+Discrepancies between theory and experimental values might be seen as signs of new physics. For example a new charged particle $\chi$  in a diagram like figure \ref{fg:Mu2BSMCorrection} would lead to another contribution to $a_l$.
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\begin{feynman}[layered layout]
+\vertex (a) {\(l^{+}\)};
+\vertex [above right=of a] (v1);
+\vertex [right=of v1](l1);
+\vertex [right=0.5cm of l1](b1);
+\vertex [right=0.5cm of b1](l2);
+\vertex [right=of l2](v2);
+\vertex [above=of b1](c);
+\vertex [above=of c](f);
+\vertex [below right=of v2](b) {\(l^{+}\)};
+\diagram* {
+(a) -- [fermion] (v1) -- [boson] (l1),
+(l2) -- [boson,] (v2) -- [fermion] (b),
+(l1) -- [fermion,half left,edge label=\(\chi\)] (l2) -- [fermion,half left,edge label=\(\chi\)](l1),
+(v1) -- [fermion] (c) -- [fermion] (v2),
+(c) -- [boson] (f)};
+\end{feynman}
+\end{tikzpicture}
+\caption{2 Loop correction due to a new charged particle $\chi$}
+\label{fg:Mu2BSMCorrection}
+\end{figure}
+This way, $a_l$ can be understood as a window to physics beyond the standard model up to masses up to the TeV scale.
+
+Analogously the muon $a_\mu$ has been calculated up to 5 loops in QED, 2 loops in the electro weak sector and compared to the experimental values given by a group at the Brookhaven National Laboratory\cite{PhysRevD.73.072003}. That results in
+\begin{equation}
+a_\mu(\text{Exp.})-a_\mu(\text{theory})= 268(63)(43)\cdot10^{-11}
+\end{equation}
+with the experimental and theoretical errors in parentheses. This shows a $3.5\sigma$ discrepancy and is seen as a promising hint to new physics. There is a rich landscape of theoretical works trying to explain the deviation from standard model.
+
+\paragraph{The hierarchy problem}
+The standard model seems to be remarkably successful at describing physics up to an energy scale of a few TeV. Nonetheless it is clear that it can't paint the whole picture. Since its impossible in the current framework to introduce a quantum theory of gravity with any predictive power there need to be additional ingredients. The current standard model can then be seen as a low energy effective description of the real underlying theory. This effective theory can only give meaningful results at energy scales smaller than the Planck scale $M_p=(8\pi G)^{-1/2}=2.435\cdot 10^{15}$TeV at which a proper description of quantum gravity needs to be in place. The fact that the electroweak scale with masses around $\SI{100}{\giga \eV}$ and the Plank scale are separated by some 16 orders of magnitude might already hint towards an unnatural hierarchy. The real problem with this comes into effect, if one includes radiative corrections to the Higgs mass because as the Higgs is a scalar, the correction are especially UV-sensitive. 
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\begin{feynman}[layered layout]
+\vertex (in){\(h\)};
+\vertex [right=of in](a);
+\vertex [right=of a](b);
+\vertex [right=of b](out){\(h\)};
+\diagram* {
+(in)--[scalar](a) -- [fermion,half left,edge label=\(f\)] (b) -- [fermion,half left] (a),
+(b)--[scalar](out)};
+\end{feynman}
+\end{tikzpicture}
+\caption{1 Loop fermion contribution to the Higgs mass}
+\label{fg:HiggsOneLoop}
+\end{figure}
+One part of the one loop Self-energy correction comes from the diagram shown in figure \ref{fg:HiggsOneLoop} and results in 
+\begin{equation}
+\Delta m_h^2=-\frac{1}{8\pi^2}g_f\Lambda^2
+\end{equation}
+where $g_f$ is the Yukawa coupling between the Higgs and the fermion $f$ and $\Lambda$ is a momentum cut-off to regulate the integral. Obviously this contribution is biggest for the fermion with the largest Yukawa coupling which in turn is simply the heaviest fermion, the top quark ans thus has to be tripled to account for color.
+Since the coupling in this case if of order one, the momentum cut-off enters essentially unsuppressed. The problem arises if the momentum cut-off and scale at which new physics comes into play is large, say $M_p$. To keep the Higgs-mass at its comparatively tiny value either there has to be a reason for the smallness such as a symmetry, or the parameters have to be unnaturally fine-tuned to cancel the contribution up to around 25 digits.
+Additionally not only particles that couple directly to the Higgs contribute. For example of there was another fermion $F$ that only couples indirectly to the Higgs via a shared gauge interaction the two loop diagram would give besides the quadratic term also a term proportional to $m_F^2\ln(\Lambda/m_F)$ \cite{Martin:1997ns}. So the Higgs self energy is sensitive to potential yet undiscovered fermions even if there is no direct coupling. 
+
+The before mentioned symmetry is one strikingly beautiful feature of supersymmetry. Essentially a supersymmetric standard model demands a scalar superpartner of all fermions to be included. Now these sfermions enter the loop contributions and produce terms with opposite signs. These cancel the quadratic dependence and leave only a logarithmically $\Lambda$-dependent term, if SUSY is softly broken.  
+\newpage
+\paragraph{Matter-antimatter asymmetry}
+The material of the Universe seems to be made up almost entirely out of matter instead of anti-matter, although the definition of what is anti-matter and what is regular matter is somewhat arbitrary.  The production of a non zero baryon number in the standard model requires the Sakharov conditions:
+\begin{itemize}
+\item C and CP violation
+\item Baryon number violation
+\item Deviation from thermal equilibrium
+\end{itemize}
+Although these conditions are met in the standard model atleast non-perturbatively, the resulting asymmetry is to small to to account for the observed universe. Many grand unified theories introduce additional interactions, that would solve this problem.
+
+\paragraph{Dark energy}
+Einstein's field equations for general relativity with the cosmological term read 
+\begin{equation}
+R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu}+\Lambda 
+g_{\mu\nu}= \frac{1}{M_{pl}^2}T_{\mu\nu}
+\end{equation}
+where $\Lambda$ acts like a constant energy density of the vacuum. 
+Measurements of the CMB show the universe to be flat while estimates of the matter density account for less than one third of the nessesary critical density\cite{Mortonson:2013zfa}. Combined with the accelerating expansion this leads to a non zero cosmological constant if the evolution of the universe is to be described at all scales by general relativity.
+From this point of view the cosmological constant is just an ad hoc solution that needs to be understood at a more fundamental level.
+
+
+From a quantum field theory perspective, $\Lambda$ might be explained by zero point energy diagrams. 
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\begin{feynman}[layered layout]
+\vertex (a);
+\vertex [right=of a](b);
+\diagram* {
+(a) -- [scalar,half left] (b) -- [scalar,half left] (a)};
+\end{feynman}
+\end{tikzpicture}
+\caption{1 Loop contribution to the vacuum energy}
+\label{fg:ZeroPoint}
+\end{figure}
+If these zero point diagrams are regularised with a momentum cut-off chosen as the Planck-scale, since here quantum gravitation will become effective, the vacuum energy is $10^{120}$ times to big. So either different diagrams cancel each other to extraordinarily high precision, which would need unnatural fine tuning to counteract radiative instabilities or another mechanism is at play that needs to be further understood.
+
+
+%\paragraph{Grand unification}
+%The standard model consists of in total 19 free parameters that can be chosen as: 3 gauge couplings, $3\times 3$ fermion masses, 3 CKM-mixing angles, one CP-violating phase, $\theta_{QCD}$ and both the Higgs mass and vacuum expectation value.

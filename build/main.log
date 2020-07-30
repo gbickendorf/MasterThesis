@@ -1,0 +1,2138 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.17)  30 JUL 2020 15:41
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrreprt.cls
+Document Class: scrreprt 2020/01/24 v3.29 KOMA-Script document class (report)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2020/01/24 v3.29 KOMA-Script package (loading files)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2020/01/24 v3.29 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip47
+\scr@dte@tocline@numbox=\box45
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 137.
+Package scrreprt Info: You've used standard option `11pt'.
+(scrreprt)             This is correct!
+(scrreprt)             Internally I'm using `fontsize=11pt'.
+(scrreprt)             If you'd like to set the option with \KOMAoptions,
+(scrreprt)             you'd have to use `fontsize=11pt' there
+(scrreprt)             instead of `11pt', too.
+Class scrreprt Info: You've used standard option `openright'.
+(scrreprt)           This is correct!
+(scrreprt)           Internally I'm using `open=right'.
+(scrreprt)           If you'd like to set the option with \KOMAoptions,
+(scrreprt)           you'd have to use `open=right' there
+(scrreprt)           instead of `openright', too.
+Class scrreprt Info: File `scrsize11pt.clo' used to setup font sizes on input l
+ine 2421.
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2020/01/24 v3.29 KOMA-Script font size class option (11pt
+)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2020/01/24 v3.29 KOMA-Script package (type area)
+\ta@bcor=\skip48
+\ta@div=\count167
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+\ta@hblk=\skip49
+\ta@vblk=\skip50
+\ta@temp=\skip51
+\footheight=\skip52
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 47.2316pt
+(typearea)              \oddsidemargin  = -12.5192pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 57.80002pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1719.
+)
+\c@part=\count168
+\c@chapter=\count169
+\c@section=\count170
+\c@subsection=\count171
+\c@subsubsection=\count172
+\c@paragraph=\count173
+\c@subparagraph=\count174
+\scr@dte@chapter@maxnumwidth=\skip53
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\chapter on input line 5547.
+\scr@dte@section@maxnumwidth=\skip54
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\section on input line 5557.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\section on input line 5557.
+\scr@dte@part@maxnumwidth=\skip55
+Class scrreprt Info: using compatibility default `afterindent=true'
+(scrreprt)           for `\part on input line 5566.
+\scr@dte@subsection@maxnumwidth=\skip56
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subsection on input line 5576.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subsection on input line 5576.
+\scr@dte@subsubsection@maxnumwidth=\skip57
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subsubsection on input line 5586.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subsubsection on input line 5586.
+\scr@dte@paragraph@maxnumwidth=\skip58
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\paragraph on input line 5596.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\paragraph on input line 5596.
+\scr@dte@subparagraph@maxnumwidth=\skip59
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subparagraph on input line 5606.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subparagraph on input line 5606.
+\abovecaptionskip=\skip60
+\belowcaptionskip=\skip61
+\c@pti@nb@sid@b@x=\box46
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 6842.
+\scr@dte@figure@maxnumwidth=\skip62
+\c@figure=\count175
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 6859.
+\scr@dte@table@maxnumwidth=\skip63
+\c@table=\count176
+Class scrreprt Info: Redefining `\numberline' on input line 7028.
+\bibindent=\dimen134
+)
+LaTeX Info: Redefining \rm on input line 2.
+LaTeX Info: Redefining \sf on input line 3.
+LaTeX Info: Redefining \tt on input line 4.
+LaTeX Info: Redefining \bf on input line 5.
+LaTeX Info: Redefining \it on input line 6.
+LaTeX Info: Redefining \sl on input line 7.
+LaTeX Info: Redefining \sc on input line 8.
+
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrhack.sty
+Package: scrhack 2020/01/24 v3.29 KOMA-Script package (hacking other packages)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-02-14 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count177
+\l__pdf_internal_box=\box47
+))
+Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-02-14 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count178
+\g__xparse_grabber_int=\count179
+\l__xparse_m_args_int=\count180
+\l__xparse_v_nesting_int=\count181
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count182
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2020/01/15 v2.7u A comprehensive (SI) units package
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen135
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen136
+\ar@mcellbox=\box48
+\extrarowheight=\dimen137
+\NC@list=\toks16
+\extratabsurround=\skip64
+\backup@length=\skip65
+\ar@cellbox=\box49
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-02-14 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box50
+\l__siunitx_tmp_dim=\dimen138
+\l__siunitx_tmp_int=\count183
+\l__siunitx_number_mantissa_length_int=\count184
+\l__siunitx_number_uncert_length_int=\count185
+\l__siunitx_round_int=\count186
+\l__siunitx_process_decimal_int=\count187
+\l__siunitx_process_uncertainty_int=\count188
+\l__siunitx_process_fixed_int=\count189
+\l__siunitx_process_integer_min_int=\count190
+\l__siunitx_process_precision_int=\count191
+\l__siunitx_group_min_int=\count192
+\l__siunitx_angle_marker_box=\box51
+\l__siunitx_angle_unit_box=\box52
+\l__siunitx_angle_marker_dim=\dimen139
+\l__siunitx_angle_unit_dim=\dimen140
+\l__siunitx_unit_int=\count193
+\l__siunitx_unit_denominator_int=\count194
+\l__siunitx_unit_numerator_int=\count195
+\l__siunitx_unit_prefix_int=\count196
+\l__siunitx_unit_prefix_base_int=\count197
+\l__siunitx_unit_prefix_gram_int=\count198
+\l__siunitx_number_product_int=\count199
+\c__siunitx_one_fill_skip=\skip66
+\l__siunitx_table_unit_align_skip=\skip67
+\l__siunitx_table_exponent_dim=\dimen141
+\l__siunitx_table_integer_dim=\dimen142
+\l__siunitx_table_mantissa_dim=\dimen143
+\l__siunitx_table_marker_dim=\dimen144
+\l__siunitx_table_result_dim=\dimen145
+\l__siunitx_table_uncert_dim=\dimen146
+\l__siunitx_table_fill_pre_dim=\dimen147
+\l__siunitx_table_fill_post_dim=\dimen148
+\l__siunitx_table_fill_mid_dim=\dimen149
+\l__siunitx_table_pre_box=\box53
+\l__siunitx_table_post_box=\box54
+\l__siunitx_table_mantissa_box=\box55
+\l__siunitx_table_result_box=\box56
+\l__siunitx_table_number_align_skip=\skip68
+\l__siunitx_table_text_align_skip=\skip69
+
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def
+File: uni-global.def 2013/05/13 UCS: Unicode global data
+)
+\uc@secondtry=\count266
+\uc@combtoks=\toks19
+\uc@combtoksb=\toks20
+\uc@temptokena=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/silence/silence.sty
+Package: silence 2012/07/02 v1.5b Selective filtering of warnings and error mes
+sages
+\sl@Save=\count267
+\sl@StateNumber=\count268
+\sl@MessageCount=\count269
+\sl@Casualties=\count270
+\sl@Filter=\toks22
+\sl@Message=\toks23
+\sl@UnexpandedMessage=\toks24
+\sl@Mess@ge=\toks25
+\sl@WarningCount=\count271
+\sl@WarningNumber=\count272
+\sl@WarningCasualties=\count273
+\sl@TempBOW=\toks26
+\sl@BankOfWarnings=\toks27
+LaTeX Info: Redefining \GenericWarning on input line 433.
+\sl@ErrorCount=\count274
+\sl@ErrorNumber=\count275
+\sl@ErrorCasualties=\count276
+\sl@TempBOE=\toks28
+\sl@BankOfErrors=\toks29
+LaTeX Info: Redefining \GenericError on input line 601.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count277
+\c@@ppsavesec=\count278
+\c@@ppsaveapp=\count279
+)
+Package scrhack Info: hyperref hack deactivated because of
+(scrhack)             detection of KOMA-Script class, that doesn't
+(scrhack)             need that hack, on input line 24.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen150
+\Hy@linkcounter=\count280
+\Hy@pagecounter=\count281
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count282
+\pdfmajorversion=\count283
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count284
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen151
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count285
+\Field@Width=\dimen152
+\Fld@charsize=\dimen153
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+
+(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count286
+\c@Item=\count287
+\c@Hfootnote=\count288
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+\Fld@listcount=\count289
+\c@bookmark@seq@number=\count290
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip70
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count291
+\float@exts=\toks30
+\float@box=\box57
+\@float@everytoks=\toks31
+\@floatcapt=\box58
+)
+Package scrhack Info: loading float hack on input line 26.
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/float.hak
+File: float.hak 2020/01/24 v3.29 KOMA-Script scrhack part (hacking package floa
+t)
+Package scrhack Info: redefining \newfloat on input line 163.
+Package scrhack Info: redefining \listof on input line 163.
+Package scrhack Info: undefining \float@addtolists on input line 163.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/02/14 3.40 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/02/14 3.40 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/02/14 3.40 Babel common definitions
+\babel@savecnt=\count292
+\U@D=\dimen154
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count293
+)
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language76) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language76) on input line 108.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen155
+\captionmargin@=\dimen156
+\captionwidth=\dimen157
+\caption@tempdima=\dimen158
+\caption@indent=\dimen159
+\caption@parindent=\dimen160
+\caption@hangindent=\dimen161
+Package caption Info: KOMA-Script document class detected.
+)
+Package caption Info: KOMA-Script document class.
+\c@caption@flags=\count294
+\c@continuedfloat=\count295
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+\c@subfigure=\count296
+\c@subtable=\count297
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip71
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen162
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count298
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count299
+\leftroot@=\count300
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count301
+\DOTSCASE@=\count302
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box59
+\strutbox@=\box60
+\big@size=\dimen163
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count303
+\c@MaxMatrixCols=\count304
+\dotsspace@=\muskip17
+\c@parentequation=\count305
+\dspbrk@lvl=\count306
+\tag@help=\toks32
+\row@=\count307
+\column@=\count308
+\maxfields@=\count309
+\andhelp@=\toks33
+\eqnshift@=\dimen164
+\alignsep@=\dimen165
+\tagshift@=\dimen166
+\tagwidth@=\dimen167
+\totwidth@=\dimen168
+\lineht@=\dimen169
+\@envbody=\toks34
+\multlinegap=\skip72
+\multlinetaggap=\skip73
+\mathdisplay@stack=\toks35
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/share/texlive/texmf-dist/tex/latex/carlisle/slashed.sty
+Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen170
+\Gin@req@width=\dimen171
+)
+(/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2020/01/30 v3.06
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks36
+\XKV@tempa@toks=\toks37
+)
+\XKV@depth=\count310
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count311
+))
+\c@padzeroesN=\count312
+\fc@tmpcatcode=\count313
+
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2016/01/12
+)
+\@DT@modctr=\count314
+\@ordinalctr=\count315
+\@orgargctr=\count316
+\@strctr=\count317
+\@tmpstrctr=\count318
+\@DT@loopN=\count319
+\@DT@X=\count320
+)
+(/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count321
+\@month=\count322
+\@year=\count323
+\c@HOUR=\count324
+\c@HOURXII=\count325
+\c@MINUTE=\count326
+\c@TOHOUR=\count327
+\c@TOMINUTE=\count328
+\c@SECOND=\count329
+\currenthour=\count330
+\currentminute=\count331
+\currentsecond=\count332
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count333
+\dayofyear=\count334
+\dayofweek=\count335
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks38
+\dt@b=\toks39
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-feynman/tikz-feynman.sty
+Package: tikz-feynman 2016/02/05v1.1.0Feynman diagrams with TikZ
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks40
+\pgfutil@tempdima=\dimen172
+\pgfutil@tempdimb=\dimen173
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box61
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks41
+\pgfkeys@temptoks=\toks42
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks43
+))
+\pgf@x=\dimen174
+\pgf@y=\dimen175
+\pgf@xa=\dimen176
+\pgf@ya=\dimen177
+\pgf@xb=\dimen178
+\pgf@yb=\dimen179
+\pgf@xc=\dimen180
+\pgf@yc=\dimen181
+\pgf@xd=\dimen182
+\pgf@yd=\dimen183
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count336
+\c@pgf@countb=\count337
+\c@pgf@countc=\count338
+\c@pgf@countd=\count339
+\t@pgf@toka=\toks44
+\t@pgf@tokb=\toks45
+\t@pgf@tokc=\toks46
+\pgf@sys@id@count=\count340
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count341
+\pgfsyssoftpath@bigbuffer@items=\count342
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen184
+\pgfmath@count=\count343
+\pgfmath@box=\box62
+\pgfmath@toks=\toks47
+\pgfmath@stack@operand=\toks48
+\pgfmath@stack@operation=\toks49
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count344
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen185
+\pgf@picmaxx=\dimen186
+\pgf@picminy=\dimen187
+\pgf@picmaxy=\dimen188
+\pgf@pathminx=\dimen189
+\pgf@pathmaxx=\dimen190
+\pgf@pathminy=\dimen191
+\pgf@pathmaxy=\dimen192
+\pgf@xx=\dimen193
+\pgf@xy=\dimen194
+\pgf@yx=\dimen195
+\pgf@yy=\dimen196
+\pgf@zx=\dimen197
+\pgf@zy=\dimen198
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen199
+\pgf@path@lasty=\dimen256
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen257
+\pgf@shorten@start@additional=\dimen258
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box63
+\pgf@hbox=\box64
+\pgf@layerbox@main=\box65
+\pgf@picture@serial@count=\count345
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen259
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen260
+\pgf@pt@y=\dimen261
+\pgf@pt@temp=\dimen262
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen263
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen264
+\pgf@sys@shading@range@num=\count346
+\pgf@shadingcount=\count347
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box66
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box67
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen265
+\pgf@nodesepend=\dimen266
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen267
+\pgffor@skip=\dimen268
+\pgffor@stack=\toks50
+\pgffor@toks=\toks51
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count348
+\pgfplotmarksize=\dimen269
+)
+\tikz@lastx=\dimen270
+\tikz@lasty=\dimen271
+\tikz@lastxsaved=\dimen272
+\tikz@lastysaved=\dimen273
+\tikz@lastmovetox=\dimen274
+\tikz@lastmovetoy=\dimen275
+\tikzleveldistance=\dimen276
+\tikzsiblingdistance=\dimen277
+\tikz@figbox=\box68
+\tikz@figbox@bg=\box69
+\tikz@tempbox=\box70
+\tikz@tempbox@bg=\box71
+\tikztreelevel=\count349
+\tikznumberofchildren=\count350
+\tikznumberofcurrentchild=\count351
+\tikz@fig@count=\count352
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count353
+\pgfmatrixcurrentcolumn=\count354
+\pgf@matrix@numberofcolumns=\count355
+)
+\tikz@expandcount=\count356
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks52
+\pgfopts@list@add@b@toks=\toks53
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-feynman/tikzlibraryfeynman.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex
+File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowinset=\dimen278
+\pgfarrowlength=\dimen279
+\pgfarrowwidth=\dimen280
+\pgfarrowlinewidth=\dimen281
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen282
+\pgfdecoratedremainingdistance=\dimen283
+\pgfdecoratedinputsegmentcompleteddistance=\dimen284
+\pgfdecoratedinputsegmentremainingdistance=\dimen285
+\pgf@decorate@distancetomove=\dimen286
+\pgf@decorate@repeatstate=\count357
+\pgfdecorationsegmentamplitude=\dimen287
+\pgfdecorationsegmentlength=\dimen288
+)
+\tikz@lib@dec@box=\box72
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.markings.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.markings.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/gra
+phs/tikzlibrarygraphs.code.tex
+File: tikzlibrarygraphs.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\tikz@lib@auto@number=\count358
+\tikz@qnode@count=\count359
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.cod
+e.tex
+File: pgflibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-feynman/tikzfeynman.keys.code.tex
+))) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count360
+\Gm@cntv=\count361
+\c@Gm@tempcnt=\count362
+\Gm@bindingoffset=\dimen289
+\Gm@wd@mp=\dimen290
+\Gm@odd@mp=\dimen291
+\Gm@even@mp=\dimen292
+\Gm@layoutwidth=\dimen293
+\Gm@layoutheight=\dimen294
+\Gm@layouthoffset=\dimen295
+\Gm@layoutvoffset=\dimen296
+\Gm@dimlist=\toks54
+)
+\feline@chapter=\box73
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
+Package: scrlayer-scrpage 2020/01/24 v3.29 KOMA-Script package (end user interf
+ace for scrlayer)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlayer.sty
+Package: scrlayer 2020/01/24 v3.29 KOMA-Script package (defining layers and pag
+e styles)
+Package scrlayer Info: Using already defined \footheight
+(scrlayer)             hoping, that this is a length and
+(scrlayer)             not only a macro on input line 109.
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 210
+6.
+)
+Package scrbase Info: Unknown processing state.
+(scrbase)             Processing option `markcase=upper'
+(scrbase)             of member `.scrlayer-scrpage.sty' of family
+(scrbase)             `KOMA' doesn't set
+(scrbase)             a valid state. This will be interpreted
+(scrbase)             as \FamilyKeyStateProcessed on input line 724.
+Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
+(scrlayer-scrpage)             alias to `pageheadfoot' on input line 1244.
+Package scrlayer-scrpage Info: deactivating warning for font element
+(scrlayer-scrpage)             `pagefoot' on input line 1271.
+)
+Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
+
+1: section
+1: chapter
+1: chapter
+1: section
+\linepagesep=\skip74
+No file main.aux.
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+Package scrbase Info: activating english \contentsname on input line 89.
+Package scrbase Info: activating english \listfigurename on input line 89.
+Package scrbase Info: activating english \listtablename on input line 89.
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count363
+\scratchdimen=\dimen297
+\scratchbox=\box74
+\nofMPsegments=\count364
+\nofMParguments=\count365
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count366
+\MPscratchDim=\dimen298
+\MPnumerator=\count367
+\makeMPintoPDFobject=\count368
+\everyMPtoPDFconversion=\toks56
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
+-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+\AtBeginShipoutBox=\box75
+Package hyperref Info: Link coloring OFF on input line 89.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count369
+)
+LaTeX Info: Redefining \ref on input line 89.
+LaTeX Info: Redefining \pageref on input line 89.
+LaTeX Info: Redefining \nameref on input line 89.
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+Class scrreprt Info: loading recommended package `bookmark'.
+(scrreprt)           Using `bookmark' together with `hyperref' is recommended,
+(scrreprt)           because of handling of possible bookmark level gaps.
+(scrreprt)           You can avoid loading `bookmark' with KOMA-Script option
+(scrreprt)           `bookmarkpackage=false' before \begin{document} and
+(scrreprt)           you can avoid this message adding:
+(scrreprt)             \usepackage{bookmark}
+(scrreprt)           before \begin{document} on input line 89.
+
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2019/12/03 v1.28 bookmark driver for pdfTeX (HO)
+Package auxhook Info: \AddLineBeginMainAux comes a little late,
+(auxhook)             because the main .aux file is already opened on input lin
+e 168.
+\BKM@id=\count370
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+ABD: EveryShipout initializing macros
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(113.81102pt, 617.4248pt, 113.81102pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=617.4248pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=4.14102pt
+* \headheight=17.0pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=57.80002pt
+* \marginparwidth=89.62619pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 89.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 89.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (./titlepage.tex
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+) [1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2] (./declaration.tex
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+
+Package scrbase Warning: Usage of deprecated command `\ifstr'.
+(scrbase)                The command has been renamed because of a
+(scrbase)                recommendation of The LaTeX Project Team.
+(scrbase)                Please replace `\ifstr' by `\Ifstr' on input line 1.
+
+) [1
+
+
+] [2] (./abstract.tex
+
+Package scrbase Warning: Usage of deprecated command `\ifstr'.
+(scrbase)                The command has been renamed because of a
+(scrbase)                recommendation of The LaTeX Project Team.
+(scrbase)                Please replace `\ifstr' by `\Ifstr' on input line 1.
+
+) [3
+
+
+] [4
+
+
+]
+
+Package scrbase Warning: Usage of deprecated command `\ifstr'.
+(scrbase)                The command has been renamed because of a
+(scrbase)                recommendation of The LaTeX Project Team.
+(scrbase)                Please replace `\ifstr' by `\Ifstr' on input line 99.
+
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+[0] (./introduction.tex
+chapter 1.
+
+Package scrbase Warning: Usage of deprecated command `\ifstr'.
+(scrbase)                The command has been renamed because of a
+(scrbase)                recommendation of The LaTeX Project Team.
+(scrbase)                Please replace `\ifstr' by `\Ifstr' on input line 1.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 
+      [1
+
+
+]
+
+LaTeX Warning: Reference `ch:sm' on page 2 undefined on input line 18.
+
+
+LaTeX Warning: Reference `ch:DM' on page 2 undefined on input line 18.
+
+
+LaTeX Warning: Reference `ch:LepDM' on page 2 undefined on input line 18.
+
+
+LaTeX Warning: Reference `ch:ExConst' on page 2 undefined on input line 18.
+
+
+LaTeX Warning: Reference `ch:SMMuon' on page 2 undefined on input line 18.
+
+
+LaTeX Warning: Reference `ch:MuBounds' on page 2 undefined on input line 18.
+
+
+LaTeX Warning: Reference `ch:SM-PionDecay' on page 2 undefined on input line 18
+.
+
+
+LaTeX Warning: Reference `ch:BoundsPI' on page 2 undefined on input line 18.
+
+
+LaTeX Warning: Reference `ch:chiSupp' on page 2 undefined on input line 18.
+
+
+LaTeX Warning: Reference `ch:conclusion' on page 2 undefined on input line 18.
+
+)pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.105 \newpage
+               [2] (./sm.tex
+chapter 2.
+
+Package scrbase Warning: Usage of deprecated command `\ifstr'.
+(scrbase)                The command has been renamed because of a
+(scrbase)                recommendation of The LaTeX Project Team.
+(scrbase)                Please replace `\ifstr' by `\Ifstr' on input line 1.
+
+
+LaTeX Warning: Reference `eq:SM_EqGlobal' on page 3 undefined on input line 11.
+
+
+
+LaTeX Warning: Reference `eq:SM_EqGlobal' on page 3 undefined on input line 12.
+
+
+
+LaTeX Warning: Reference `eq:SM_EqGlobal' on page 3 undefined on input line 21.
+
+
+[3
+
+
+] [4]
+
+LaTeX Warning: Reference `eq:HiggsKin' on page 5 undefined on input line 93.
+
+[5] [6]
+
+LaTeX Warning: Citation `Scherer:2002tk' on page 7 undefined on input line 180.
+
+
+
+LaTeX Warning: Reference `fg:QEDCorrection' on page 7 undefined on input line 1
+96.
+
+[7]
+
+LaTeX Warning: Citation `Aoyama:2017uqe' on page 8 undefined on input line 216.
+
+
+
+LaTeX Warning: Citation `Hanneke:2010au' on page 8 undefined on input line 217.
+
+
+
+LaTeX Warning: Reference `fg:Mu2BSMCorrection' on page 8 undefined on input lin
+e 219.
+
+
+LaTeX Warning: Citation `PhysRevD.73.072003' on page 8 undefined on input line 
+246.
+
+[8]
+
+LaTeX Warning: Reference `fg:HiggsOneLoop' on page 9 undefined on input line 27
+1.
+
+
+LaTeX Warning: Citation `Martin:1997ns' on page 9 undefined on input line 277.
+
+[9]
+
+LaTeX Warning: Citation `Mortonson:2013zfa' on page 10 undefined on input line 
+297.
+
+) [10] (./darkMatter.tex
+chapter 3.
+
+Package scrbase Warning: Usage of deprecated command `\ifstr'.
+(scrbase)                The command has been renamed because of a
+(scrbase)                recommendation of The LaTeX Project Team.
+(scrbase)                Please replace `\ifstr' by `\Ifstr' on input line 1.
+
+<imgs/Rotation.pdf, id=138, 597.23125pt x 845.1575pt>
+File: imgs/Rotation.pdf Graphic file (type pdf)
+<use imgs/Rotation.pdf>
+Package pdftex.def Info: imgs/Rotation.pdf  used on input line 14.
+(pdftex.def)             Requested size: 170.71393pt x 241.58167pt.
+
+LaTeX Warning: Citation `Begeman:1991iy' on page 11 undefined on input line 15.
+
+
+
+LaTeX Warning: Citation `Begeman:1991iy' on page 11 undefined on input line 15.
+
+
+
+LaTeX Warning: Reference `fg:RotationCurve' on page 11 undefined on input line 
+18.
+
+
+LaTeX Warning: Citation `Bertone:2004pz' on page 11 undefined on input line 25.
+
+
+[11
+
+
+]
+
+LaTeX Warning: Reference `fg:abell' on page 12 undefined on input line 32.
+
+<imgs/large_web.jpg, id=147, 952.55875pt x 714.67pt>
+File: imgs/large_web.jpg Graphic file (type jpg)
+<use imgs/large_web.jpg>
+Package pdftex.def Info: imgs/large_web.jpg  used on input line 35.
+(pdftex.def)             Requested size: 170.71393pt x 128.07889pt.
+
+LaTeX Warning: Reference `fg:bullet' on page 12 undefined on input line 40.
+
+<imgs/bullet.jpg, id=148, 308.352pt x 222.8325pt>
+File: imgs/bullet.jpg Graphic file (type jpg)
+<use imgs/bullet.jpg>
+Package pdftex.def Info: imgs/bullet.jpg  used on input line 43.
+(pdftex.def)             Requested size: 170.71393pt x 123.36748pt.
+
+LaTeX Warning: Citation `Massey:2010hh' on page 12 undefined on input line 44.
+
+
+LaTeX Warning: Citation `Massey:2010hh' on page 12 undefined on input line 44.
+
+[12 <./imgs/Rotation.pdf> <./imgs/large_web.jpg>]
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 13 undefined on input line
+ 68.
+
+[13 <./imgs/bullet.jpg>]
+
+LaTeX Warning: Citation `Bergstrom:2000pn' on page 14 undefined on input line 7
+3.
+
+) [14] [15] (./leptophilicDM.tex [16
+
+
+]
+chapter 4.
+
+Package scrbase Warning: Usage of deprecated command `\ifstr'.
+(scrbase)                The command has been renamed because of a
+(scrbase)                recommendation of The LaTeX Project Team.
+(scrbase)                Please replace `\ifstr' by `\Ifstr' on input line 1.
+
+
+LaTeX Warning: Citation `Altmannshofer:2014pba' on page 17 undefined on input l
+ine 14.
+
+[17]
+
+LaTeX Warning: Reference `fg:KinMix' on page 18 undefined on input line 34.
+
+
+LaTeX Warning: Citation `Rizzo:2018vlb' on page 18 undefined on input line 35.
+
+
+LaTeX Warning: Citation `Goudzovski:2014rwa' on page 18 undefined on input line
+ 45.
+
+
+LaTeX Warning: Citation `Izaguirre:2014bca' on page 18 undefined on input line 
+58.
+
+
+LaTeX Warning: Citation `Kahn:2018cqs' on page 18 undefined on input line 64.
+
+[18]
+
+LaTeX Warning: Citation `Batell:2016ove' on page 19 undefined on input line 89.
+
+
+
+LaTeX Warning: Reference `fg:PhotonCoupling' on page 19 undefined on input line
+ 94.
+
+
+LaTeX Warning: Citation `Chen:2018vkr' on page 19 undefined on input line 94.
+
+[19]) [20] (./exprimentalconstrains.tex
+chapter 5.
+
+Package scrbase Warning: Usage of deprecated command `\ifstr'.
+(scrbase)                The command has been renamed because of a
+(scrbase)                recommendation of The LaTeX Project Team.
+(scrbase)                Please replace `\ifstr' by `\Ifstr' on input line 1.
+
+
+LaTeX Warning: Reference `fg:ZtoFourL' on page 21 undefined on input line 33.
+
+
+LaTeX Warning: Citation `Aad:2014wra' on page 21 undefined on input line 38.
+
+
+LaTeX Warning: Citation `Altmannshofer:2014pba' on page 21 undefined on input l
+ine 38.
+
+
+LaTeX Warning: Reference `fg:trident' on page 21 undefined on input line 40.
+
+Missing character: There is no ; in font nullfont!
+[21
+
+
+]
+
+LaTeX Warning: Citation `Altmannshofer:2014pba' on page 22 undefined on input l
+ine 82.
+
+
+LaTeX Warning: Reference `fg:BeamDumpPion' on page 22 undefined on input line 9
+0.
+
+
+LaTeX Warning: Citation `deNiverville:2011it' on page 22 undefined on input lin
+e 113.
+
+[22]
+
+LaTeX Warning: Reference `fg:NA48Bounds' on page 23 undefined on input line 147
+.
+
+<imgs/dp_exclusion.pdf, id=242, 569.12625pt x 541.02126pt>
+File: imgs/dp_exclusion.pdf Graphic file (type pdf)
+<use imgs/dp_exclusion.pdf>
+Package pdftex.def Info: imgs/dp_exclusion.pdf  used on input line 150.
+(pdftex.def)             Requested size: 170.71393pt x 162.28285pt.
+
+LaTeX Warning: Citation `Lurkin:2017aqo' on page 23 undefined on input line 151
+.
+
+
+LaTeX Warning: Citation `Lurkin:2017aqo' on page 23 undefined on input line 151
+.
+
+
+LaTeX Warning: Reference `eq:KinMix' on page 23 undefined on input line 154.
+
+
+LaTeX Warning: Reference `fg:DP-Porduction' on page 23 undefined on input line 
+157.
+
+
+LaTeX Warning: Reference `fg:BABAR' on page 23 undefined on input line 157.
+
+[23 <./imgs/dp_exclusion.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./imgs/exclusionInvisible-1909.pdf): PD
+F inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<imgs/exclusionInvisible-1909.pdf, id=257, 369.88147pt x 284.52419pt>
+File: imgs/exclusionInvisible-1909.pdf Graphic file (type pdf)
+<use imgs/exclusionInvisible-1909.pdf>
+Package pdftex.def Info: imgs/exclusionInvisible-1909.pdf  used on input line 1
+92.
+(pdftex.def)             Requested size: 256.07741pt x 196.9818pt.
+
+LaTeX Warning: Citation `Banerjee:2018vgk' on page 24 undefined on input line 1
+93.
+
+
+LaTeX Warning: Citation `Banerjee:2018vgk' on page 24 undefined on input line 1
+93.
+
+
+LaTeX Warning: Citation `Frugiuele:2019drl' on page 24 undefined on input line 
+199.
+
+[24 <./imgs/exclusionInvisible-1909.pdf>]
+
+LaTeX Warning: Reference `fg:AtomicElectronBound' on page 25 undefined on input
+ line 208.
+
+<imgs/yebound-final.pdf, id=293, 501.875pt x 501.875pt>
+File: imgs/yebound-final.pdf Graphic file (type pdf)
+<use imgs/yebound-final.pdf>
+Package pdftex.def Info: imgs/yebound-final.pdf  used on input line 214.
+(pdftex.def)             Requested size: 213.39568pt x 213.39743pt.
+<imgs/DP-final.pdf, id=294, 501.875pt x 501.875pt>
+File: imgs/DP-final.pdf Graphic file (type pdf)
+<use imgs/DP-final.pdf>
+Package pdftex.def Info: imgs/DP-final.pdf  used on input line 219.
+(pdftex.def)             Requested size: 213.39568pt x 213.39743pt.
+
+LaTeX Warning: Citation `Delaunay:2017dku' on page 25 undefined on input line 2
+22.
+
+
+LaTeX Warning: Citation `Delaunay:2017dku' on page 25 undefined on input line 2
+22.
+
+[25 <./imgs/yebound-final.pdf> <./imgs/DP-final.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./imgs/DP-final.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Citation `Frugiuele:2019drl' on page 26 undefined on input line 
+238.
+
+
+LaTeX Warning: Reference `fg:MuoniumBounds' on page 26 undefined on input line 
+238.
+
+<imgs/muonium1.pdf, id=380, 495.28871pt x 477.22348pt>
+File: imgs/muonium1.pdf Graphic file (type pdf)
+<use imgs/muonium1.pdf>
+Package pdftex.def Info: imgs/muonium1.pdf  used on input line 241.
+(pdftex.def)             Requested size: 213.39568pt x 205.60988pt.
+
+LaTeX Warning: Citation `Frugiuele:2019drl' on page 26 undefined on input line 
+242.
+
+
+LaTeX Warning: Citation `Frugiuele:2019drl' on page 26 undefined on input line 
+242.
+
+
+LaTeX Warning: Citation `Inguglia:2016acz' on page 26 undefined on input line 2
+48.
+
+[26 <./imgs/muonium1.pdf>]
+
+LaTeX Warning: Citation `Kahn:2018cqs' on page 27 undefined on input line 252.
+
+) [27] (./sm-muon-decay.tex [28
+
+
+]
+chapter 6.
+
+Package scrbase Warning: Usage of deprecated command `\ifstr'.
+(scrbase)                The command has been renamed because of a
+(scrbase)                recommendation of The LaTeX Project Team.
+(scrbase)                Please replace `\ifstr' by `\Ifstr' on input line 1.
+
+
+LaTeX Warning: Reference `fg:SM-Muondecay' on page 29 undefined on input line 2
+4.
+
+[29]
+<imgs/MuonSpectrum.pdf, id=414, 569.12625pt x 355.3275pt>
+File: imgs/MuonSpectrum.pdf Graphic file (type pdf)
+<use imgs/MuonSpectrum.pdf>
+Package pdftex.def Info: imgs/MuonSpectrum.pdf  used on input line 53.
+(pdftex.def)             Requested size: 341.43437pt x 213.18187pt.
+
+
+LaTeX Warning: Reference `fg:SM-MuonSpectrum' on page 30 undefined on input lin
+e 57.
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 30 undefined on input line
+ 63.
+
+[30 <./imgs/MuonSpectrum.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Reference `eq:DiffrateSimple' on page 31 undefined on input line
+ 68.
+
+
+LaTeX Warning: Reference `eq:Diffrate' on page 31 undefined on input line 68.
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 31 undefined on input line
+ 69.
+
+
+LaTeX Warning: Citation `TWIST:2011aa' on page 31 undefined on input line 95.
+
+
+LaTeX Warning: Reference `ch:SM-PionDecay' on page 31 undefined on input line 9
+5.
+
+[31]) [32] (./boundsMu.tex
+chapter 7.
+
+Package scrbase Warning: Usage of deprecated command `\ifstr'.
+(scrbase)                The command has been renamed because of a
+(scrbase)                recommendation of The LaTeX Project Team.
+(scrbase)                Please replace `\ifstr' by `\Ifstr' on input line 1.
+
+
+LaTeX Warning: Reference `fg:MuonBSMContribution' on page 33 undefined on input
+ line 5.
+
+
+Underfull \vbox (badness 7451) has occurred while \output is active []
+
+ [33
+
+
+]
+
+LaTeX Warning: Reference `eq:momenta' on page 34 undefined on input line 57.
+
+
+LaTeX Warning: Reference `eq:sum' on page 34 undefined on input line 57.
+
+
+LaTeX Warning: Reference `fg:exampleSpectra' on page 34 undefined on input line
+ 63.
+
+<imgs/ScalarElectronPlot.pdf, id=491, 455.7025pt x 287.0725pt>
+File: imgs/ScalarElectronPlot.pdf Graphic file (type pdf)
+<use imgs/ScalarElectronPlot.pdf>
+Package pdftex.def Info: imgs/ScalarElectronPlot.pdf  used on input line 68.
+(pdftex.def)             Requested size: 192.0548pt x 120.98575pt.
+<imgs/VectorLeptonPlot.pdf, id=492, 455.7025pt x 287.0725pt>
+File: imgs/VectorLeptonPlot.pdf Graphic file (type pdf)
+<use imgs/VectorLeptonPlot.pdf>
+Package pdftex.def Info: imgs/VectorLeptonPlot.pdf  used on input line 74.
+(pdftex.def)             Requested size: 192.0548pt x 120.98575pt.
+[34 <./imgs/ScalarElectronPlot.pdf> <./imgs/VectorLeptonPlot.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./imgs/VectorLeptonPlot.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Reference `eq:Diffrate' on page 35 undefined on input line 84.
+
+
+LaTeX Warning: Citation `TWIST:2011aa' on page 35 undefined on input line 88.
+
+
+LaTeX Warning: Reference `fg:FiducialRegion' on page 35 undefined on input line
+ 88.
+
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./imgs/fiducial.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<imgs/fiducial.pdf, id=510, 550.97844pt x 447.81303pt>
+File: imgs/fiducial.pdf Graphic file (type pdf)
+<use imgs/fiducial.pdf>
+Package pdftex.def Info: imgs/fiducial.pdf  used on input line 91.
+(pdftex.def)             Requested size: 256.07741pt x 208.1284pt.
+
+LaTeX Warning: Citation `TWIST:2011aa' on page 35 undefined on input line 92.
+
+
+LaTeX Warning: Citation `TWIST:2011aa' on page 35 undefined on input line 92.
+
+
+LaTeX Warning: Reference `fg:MassDependence' on page 35 undefined on input line
+ 95.
+
+<imgs/S0-001.pdf, id=511, 455.7025pt x 284.06125pt>
+File: imgs/S0-001.pdf Graphic file (type pdf)
+<use imgs/S0-001.pdf>
+Package pdftex.def Info: imgs/S0-001.pdf  used on input line 100.
+(pdftex.def)             Requested size: 192.0548pt x 119.71666pt.
+<imgs/V0-001.pdf, id=512, 455.7025pt x 288.07625pt>
+File: imgs/V0-001.pdf Graphic file (type pdf)
+<use imgs/V0-001.pdf>
+Package pdftex.def Info: imgs/V0-001.pdf  used on input line 105.
+(pdftex.def)             Requested size: 192.0548pt x 121.40878pt.
+<imgs/S0-01.pdf, id=513, 455.7025pt x 287.0725pt>
+File: imgs/S0-01.pdf Graphic file (type pdf)
+<use imgs/S0-01.pdf>
+Package pdftex.def Info: imgs/S0-01.pdf  used on input line 110.
+(pdftex.def)             Requested size: 192.0548pt x 120.98575pt.
+<imgs/V0-01.pdf, id=514, 455.7025pt x 287.0725pt>
+File: imgs/V0-01.pdf Graphic file (type pdf)
+<use imgs/V0-01.pdf>
+Package pdftex.def Info: imgs/V0-01.pdf  used on input line 115.
+(pdftex.def)             Requested size: 192.0548pt x 120.98575pt.
+<imgs/S0-05.pdf, id=515, 455.7025pt x 288.07625pt>
+File: imgs/S0-05.pdf Graphic file (type pdf)
+<use imgs/S0-05.pdf>
+Package pdftex.def Info: imgs/S0-05.pdf  used on input line 120.
+(pdftex.def)             Requested size: 192.0548pt x 121.40878pt.
+<imgs/V0-05.pdf, id=516, 455.7025pt x 287.0725pt>
+File: imgs/V0-05.pdf Graphic file (type pdf)
+<use imgs/V0-05.pdf>
+Package pdftex.def Info: imgs/V0-05.pdf  used on input line 125.
+(pdftex.def)             Requested size: 192.0548pt x 120.98575pt.
+[35 <./imgs/fiducial.pdf>] [36 <./imgs/S0-001.pdf> <./imgs/V0-001.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./imgs/V0-001.pdf): PDF inclusion: mult
+iple pdfs with page group included in a single page
+> <./imgs/S0-01.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./imgs/S0-01.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./imgs/V0-01.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./imgs/V0-01.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./imgs/S0-05.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./imgs/S0-05.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./imgs/V0-05.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./imgs/V0-05.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>]
+<imgs/MuBoundOnScalarElectron.pdf, id=551, 682.55pt x 433.62pt>
+File: imgs/MuBoundOnScalarElectron.pdf Graphic file (type pdf)
+<use imgs/MuBoundOnScalarElectron.pdf>
+Package pdftex.def Info: imgs/MuBoundOnScalarElectron.pdf  used on input line 1
+38.
+(pdftex.def)             Requested size: 341.43437pt x 216.91533pt.
+
+
+LaTeX Warning: Citation `Essig:2013vha' on page 37 undefined on input line 139.
+
+
+
+LaTeX Warning: Citation `Essig:2013vha' on page 37 undefined on input line 139.
+
+
+
+LaTeX Warning: Reference `fg:MuBoundScEl' on page 37 undefined on input line 14
+2.
+
+<imgs/MuBoundOnScalarMuon.pdf, id=552, 682.55pt x 433.62pt>
+File: imgs/MuBoundOnScalarMuon.pdf Graphic file (type pdf)
+<use imgs/MuBoundOnScalarMuon.pdf>
+Package pdftex.def Info: imgs/MuBoundOnScalarMuon.pdf  used on input line 146.
+(pdftex.def)             Requested size: 341.43437pt x 216.91533pt.
+
+LaTeX Warning: Reference `fg:MuBoundScMu' on page 37 undefined on input line 15
+0.
+
+<imgs/MuBoundOnVectorElectron.pdf, id=553, 682.55pt x 433.62pt>
+File: imgs/MuBoundOnVectorElectron.pdf Graphic file (type pdf)
+<use imgs/MuBoundOnVectorElectron.pdf>
+Package pdftex.def Info: imgs/MuBoundOnVectorElectron.pdf  used on input line 1
+55.
+(pdftex.def)             Requested size: 341.43437pt x 216.91533pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37 <./imgs/MuBoundOnScalarElectron.pdf>]
+
+LaTeX Warning: Reference `fg:MuBoundVeEl' on page 38 undefined on input line 15
+9.
+
+[38 <./imgs/MuBoundOnScalarMuon.pdf> <./imgs/MuBoundOnVectorElectron.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./imgs/MuBoundOnVectorElectron.pdf): PD
+F inclusion: multiple pdfs with page group included in a single page
+>]
+<imgs/MuBoundOnVectorMuon.pdf, id=679, 682.55pt x 433.62pt>
+File: imgs/MuBoundOnVectorMuon.pdf Graphic file (type pdf)
+<use imgs/MuBoundOnVectorMuon.pdf>
+Package pdftex.def Info: imgs/MuBoundOnVectorMuon.pdf  used on input line 163.
+(pdftex.def)             Requested size: 341.43437pt x 216.91533pt.
+
+
+LaTeX Warning: Reference `fg:MuBoundVeMu' on page 39 undefined on input line 16
+7.
+
+<imgs/MuBoundOnVectorLepton.pdf, id=680, 682.55pt x 433.62pt>
+File: imgs/MuBoundOnVectorLepton.pdf Graphic file (type pdf)
+<use imgs/MuBoundOnVectorLepton.pdf>
+Package pdftex.def Info: imgs/MuBoundOnVectorLepton.pdf  used on input line 170
+.
+(pdftex.def)             Requested size: 341.43437pt x 216.91533pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39 <./imgs/MuBoundOnVectorMuon.pdf>]
+
+LaTeX Warning: Reference `fg:MuBoundVeEM' on page 40 undefined on input line 17
+5.
+
+[40 <./imgs/MuBoundOnVectorLepton.pdf>]) [41] (./sm-pion-decay.tex [42
+
+
+]
+chapter 8.
+
+Package scrbase Warning: Usage of deprecated command `\ifstr'.
+(scrbase)                The command has been renamed because of a
+(scrbase)                recommendation of The LaTeX Project Team.
+(scrbase)                Please replace `\ifstr' by `\Ifstr' on input line 1.
+
+
+LaTeX Warning: Citation `Scherer:2002tk' on page 43 undefined on input line 4.
+
+
+LaTeX Warning: Reference `eq:Pion_Wdth' on page 43 undefined on input line 38.
+
+[43]
+
+LaTeX Warning: Citation `PhysRevLett.99.231801' on page 44 undefined on input l
+ine 43.
+
+
+LaTeX Warning: Citation `PhysRevLett.115.071801' on page 44 undefined on input 
+line 51.
+
+) [44] (./boundsPi.tex
+chapter 9.
+
+Package scrbase Warning: Usage of deprecated command `\ifstr'.
+(scrbase)                The command has been renamed because of a
+(scrbase)                recommendation of The LaTeX Project Team.
+(scrbase)                Please replace `\ifstr' by `\Ifstr' on input line 1.
+
+
+LaTeX Warning: Citation `Aguilar-Arevalo:2017vlf' on page 45 undefined on input
+ line 5.
+
+
+LaTeX Warning: Reference `fg:PiENuSpectrum' on page 45 undefined on input line 
+10.
+
+<imgs/graph.png, id=789, 783.67781pt x 423.83344pt>
+File: imgs/graph.png Graphic file (type png)
+<use imgs/graph.png>
+Package pdftex.def Info: imgs/graph.png  used on input line 13.
+(pdftex.def)             Requested size: 341.43437pt x 184.65707pt.
+
+LaTeX Warning: Citation `Aguilar-Arevalo:2017vlf' on page 45 undefined on input
+ line 15.
+
+
+LaTeX Warning: Citation `Aguilar-Arevalo:2017vlf' on page 45 undefined on input
+ line 15.
+
+[45
+
+
+ <./imgs/graph.png (PNG copy)>]
+
+LaTeX Warning: Reference `fg:PiENuBSMGraphsScalar' on page 46 undefined on inpu
+t line 20.
+
+
+LaTeX Warning: Reference `fg:PiENuBSMGraphsVector' on page 46 undefined on inpu
+t line 47.
+
+
+LaTeX Warning: Reference `fg:PionExamplePlots' on page 46 undefined on input li
+ne 101.
+
+<imgs/PionExamplePlot.pdf, id=798, 682.55pt x 407.5225pt>
+File: imgs/PionExamplePlot.pdf Graphic file (type pdf)
+<use imgs/PionExamplePlot.pdf>
+Package pdftex.def Info: imgs/PionExamplePlot.pdf  used on input line 104.
+(pdftex.def)             Requested size: 256.07741pt x 152.89517pt.
+
+LaTeX Warning: Citation `Aguilar-Arevalo:2017vlf' on page 46 undefined on input
+ line 105.
+
+
+LaTeX Warning: Citation `Aguilar-Arevalo:2017vlf' on page 46 undefined on input
+ line 105.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[46]
+<imgs/PionSpectrumVector.pdf, id=807, 682.55pt x 433.62pt>
+File: imgs/PionSpectrumVector.pdf Graphic file (type pdf)
+<use imgs/PionSpectrumVector.pdf>
+Package pdftex.def Info: imgs/PionSpectrumVector.pdf  used on input line 119.
+(pdftex.def)             Requested size: 341.43437pt x 216.91533pt.
+<imgs/PionSpectrumScalar.pdf, id=808, 682.55pt x 433.62pt>
+File: imgs/PionSpectrumScalar.pdf Graphic file (type pdf)
+<use imgs/PionSpectrumScalar.pdf>
+Package pdftex.def Info: imgs/PionSpectrumScalar.pdf  used on input line 126.
+(pdftex.def)             Requested size: 341.43437pt x 216.91533pt.
+ [47 <./imgs/PionExamplePlot.pdf> <./imgs/PionSpectrumVector.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./imgs/PionSpectrumVector.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+>]) [48 <./imgs/PionSpectrumScalar.pdf>] (./chirSupp.tex
+chapter 10.
+
+Package scrbase Warning: Usage of deprecated command `\ifstr'.
+(scrbase)                The command has been renamed because of a
+(scrbase)                recommendation of The LaTeX Project Team.
+(scrbase)                Please replace `\ifstr' by `\Ifstr' on input line 1.
+
+
+LaTeX Warning: Reference `fg:PiSpectrumScalarUniversalityBounds' on page 49 und
+efined on input line 17.
+
+<imgs/LeptonUniversality.pdf, id=909, 682.55pt x 433.62pt>
+File: imgs/LeptonUniversality.pdf Graphic file (type pdf)
+<use imgs/LeptonUniversality.pdf>
+Package pdftex.def Info: imgs/LeptonUniversality.pdf  used on input line 20.
+(pdftex.def)             Requested size: 341.43437pt x 216.91533pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49
+
+
+]
+
+LaTeX Warning: Reference `fg:PiSpectrumScalarUniversalityBounds' on page 50 und
+efined on input line 25.
+
+<imgs/combinedVector.pdf, id=916, 682.55pt x 433.62pt>
+File: imgs/combinedVector.pdf Graphic file (type pdf)
+<use imgs/combinedVector.pdf>
+Package pdftex.def Info: imgs/combinedVector.pdf  used on input line 29.
+(pdftex.def)             Requested size: 341.43437pt x 216.91533pt.
+<imgs/combinedScalar.pdf, id=917, 682.55pt x 433.62pt>
+File: imgs/combinedScalar.pdf Graphic file (type pdf)
+<use imgs/combinedScalar.pdf>
+Package pdftex.def Info: imgs/combinedScalar.pdf  used on input line 36.
+(pdftex.def)             Requested size: 341.43437pt x 216.91533pt.
+
+LaTeX Warning: Reference `fg:PiMuCombinedVector' on page 50 undefined on input 
+line 41.
+
+
+LaTeX Warning: Reference `fg:PiMuCombinedScalar' on page 50 undefined on input 
+line 42.
+
+) [50 <./imgs/LeptonUniversality.pdf>] (./conclusion.tex [51 <./imgs/combinedVe
+ctor.pdf> <./imgs/combinedScalar.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./imgs/combinedScalar.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+>] [52
+
+
+]
+chapter 11.
+
+Package scrbase Warning: Usage of deprecated command `\ifstr'.
+(scrbase)                The command has been renamed because of a
+(scrbase)                recommendation of The LaTeX Project Team.
+(scrbase)                Please replace `\ifstr' by `\Ifstr' on input line 1.
+
+[53]) [54] (./appendix.tex
+chapter A.
+
+Package scrbase Warning: Usage of deprecated command `\ifstr'.
+(scrbase)                The command has been renamed because of a
+(scrbase)                recommendation of The LaTeX Project Team.
+(scrbase)                Please replace `\ifstr' by `\Ifstr' on input line 1.
+
+
+LaTeX Warning: Citation `Asatrian:2012tp' on page 55 undefined on input line 18
+.
+
+[55
+
+
+] [56]
+
+LaTeX Warning: Reference `eq:AppOffShell' on page 57 undefined on input line 95
+.
+
+[57] [58
+
+
+]
+chapter B.
+
+Package scrbase Warning: Usage of deprecated command `\ifstr'.
+(scrbase)                The command has been renamed because of a
+(scrbase)                recommendation of The LaTeX Project Team.
+(scrbase)                Please replace `\ifstr' by `\Ifstr' on input line 97.
+
+<imgs/BoundERL.pdf, id=1096, 682.55pt x 433.62pt>
+File: imgs/BoundERL.pdf Graphic file (type pdf)
+<use imgs/BoundERL.pdf>
+Package pdftex.def Info: imgs/BoundERL.pdf  used on input line 106.
+(pdftex.def)             Requested size: 426.79135pt x 271.14417pt.
+<imgs/BoundMRL.pdf, id=1097, 682.55pt x 433.62pt>
+File: imgs/BoundMRL.pdf Graphic file (type pdf)
+<use imgs/BoundMRL.pdf>
+Package pdftex.def Info: imgs/BoundMRL.pdf  used on input line 112.
+(pdftex.def)             Requested size: 426.79135pt x 271.14417pt.
+)
+No file main.bbl.
+
+Underfull \vbox (badness 3118) has occurred while \output is active []
+
+ [59 <./imgs/BoundERL.pdf>] [60 <./imgs/BoundMRL.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 139.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 139.
+ (build/main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 139.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 139.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: <no file>.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 32716 strings out of 481239
+ 691967 string characters out of 5920377
+ 1102090 words of memory out of 5000000
+ 47055 multiletter control sequences out of 15000+600000
+ 562445 words of font info for 106 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 72i,21n,104p,10157b,2145s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
+fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/m
+sam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/shar
+e/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/
+public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm
+0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share
+/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/p
+ublic/cm-super/sfsl1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1
+095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/
+texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/pu
+blic/cm-super/sfsx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti10
+95.pfb>
+Output written on build/main.pdf (67 pages, 3335520 bytes).
+PDF statistics:
+ 1478 PDF objects out of 1728 (max. 8388607)
+ 1128 compressed objects within 12 object streams
+ 269 named destinations out of 1000 (max. 500000)
+ 509 words of extra memory for PDF output out of 10000 (max. 10000000)
+

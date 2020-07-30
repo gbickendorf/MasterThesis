@@ -1,0 +1,49 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{1}
+
+\bibitem{Altmannshofer:2014pba}
+W.~Altmannshofer, S.~Gori, M.~Pospelov, and I.~Yavin, {\it {Neutrino Trident
+  Production: A Powerful Probe of New Physics with Neutrino Beams}},  {\em
+  Phys. Rev. Lett.} {\bf 113} (2014) 091801,
+  [\href{http://arxiv.org/abs/1406.2332}{{\tt arXiv:1406.2332}}].
+
+\bibitem{Banerjee:2018vgk}
+{\bf NA64} Collaboration, D.~Banerjee {\em et~al.}, {\it {Search for a
+  Hypothetical 16.7 MeV Gauge Boson and Dark Photons in the NA64 Experiment at
+  CERN}},  {\em Phys. Rev. Lett.} {\bf 120} (2018), no.~23 231802,
+  [\href{http://arxiv.org/abs/1803.07748}{{\tt arXiv:1803.07748}}].
+
+\bibitem{Delaunay:2017dku}
+C.~Delaunay, C.~Frugiuele, E.~Fuchs, and Y.~Soreq, {\it {Probing new
+  spin-independent interactions through precision spectroscopy in atoms with
+  few electrons}},  {\em Phys. Rev.} {\bf D96} (2017), no.~11 115002,
+  [\href{http://arxiv.org/abs/1709.02817}{{\tt arXiv:1709.02817}}].
+
+\bibitem{TWIST:2011aa}
+{\bf TWIST} Collaboration, A.~Hillairet {\em et~al.}, {\it {Precision muon
+  decay measurements and improved constraints on the weak interaction}},  {\em
+  Phys. Rev.} {\bf D85} (2012) 092013,
+  [\href{http://arxiv.org/abs/1112.3606}{{\tt arXiv:1112.3606}}].
+
+\bibitem{PhysRevLett.99.231801}
+V.~Cirigliano and I.~Rosell, {\it Two-loop effective theory analysis of
+  $\ensuremath{\pi}$
+  $(k)\ensuremath{\rightarrow}e{\overline{\ensuremath{\nu}}}_{e}[\ensuremath{\gamma}]$
+  branching ratios},  {\em Phys. Rev. Lett.} {\bf 99} (Dec, 2007) 231801.
+
+\bibitem{PhysRevLett.115.071801}
+{\bf PIENU Collaboration} Collaboration, A.~Aguilar-Arevalo, M.~Aoki,
+  M.~Blecher, D.~I. Britton, D.~A. Bryman, D.~vom Bruch, S.~Chen, J.~Comfort,
+  M.~Ding, L.~Doria, S.~Cuen-Rochin, P.~Gumplinger, A.~Hussein, Y.~Igarashi,
+  S.~Ito, S.~H. Kettell, L.~Kurchaninov, L.~S. Littenberg, C.~Malbrunot, R.~E.
+  Mischke, T.~Numao, D.~Protopopescu, A.~Sher, T.~Sullivan, D.~Vavilov, and
+  K.~Yamada, {\it Improved measurement of the
+  $\ensuremath{\pi}\ensuremath{\rightarrow}\mathrm{e}\ensuremath{\nu}$
+  branching ratio},  {\em Phys. Rev. Lett.} {\bf 115} (Aug, 2015) 071801.
+
+\bibitem{Aguilar-Arevalo:2017vlf}
+{\bf PIENU} Collaboration, A.~Aguilar-Arevalo {\em et~al.}, {\it {Improved
+  search for heavy neutrinos in the decay $\pi\rightarrow e\nu$}},  {\em Phys.
+  Rev.} {\bf D97} (2018), no.~7 072012,
+  [\href{http://arxiv.org/abs/1712.03275}{{\tt arXiv:1712.03275}}].
+
+\end{thebibliography}\endgroup

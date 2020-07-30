@@ -1,0 +1,139 @@
+\documentclass[11pt, a4paper,footlines=2, twoside,openright]{scrreprt}
+\DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
+\DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
+\DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt}
+\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+\DeclareOldFontCommand{\it}{\normalfont\itshape}{\mathit}
+\DeclareOldFontCommand{\sl}{\normalfont\slshape}{\@nomath\sl}
+\DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}
+\usepackage{xcolor}
+\definecolor{ultramarineblue}{rgb}{0.25, 0.4, 0.96}
+\usepackage[T1]{fontenc}
+
+
+\usepackage{scrhack}
+\usepackage{siunitx}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage{textgreek}
+\usepackage{silence}
+\usepackage{appendix}
+\WarningsOff[tikz-feynman]
+%\WarningsOff[silence]
+\usepackage{hyperref}
+\usepackage{float}
+%\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\numberwithin{equation}{section}
+\DeclareMathOperator{\Tr}{Tr}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{slashed}
+\usepackage{graphicx}
+\usepackage{datetime}
+\usepackage[compat=1.1.0]{tikz-feynman}
+\usepackage[left=3cm,right=3cm,top=4cm,bottom=4cm]{geometry}
+
+
+%\renewcommand\chaptermarkformat{\chaptername\ \thechapter\autodot\ \ }
+
+
+\makeatletter
+
+\newsavebox{\feline@chapter}
+\newcommand\feline@chapter@marker[1][4cm]{%
+  \sbox\feline@chapter{%
+    \resizebox{!}{#1}{\setlength{\fboxsep}{0pt}%
+        \colorbox{white}{\color{ultramarineblue}$\thechapter$}}}%
+  \raisebox{\depth}{\usebox{\feline@chapter}}%
+}
+\renewcommand*{\chapterformat}{\feline@chapter@marker[1.61cm]}
+
+\renewcommand\chapterlinesformat[3]{%
+  \ifstr{#1}{chapter}
+  {%
+    \makebox[\textwidth][l]{%
+      \parbox[b]{\textwidth}{\raggedchapter #3}%
+      \hspace*{\marginparsep}#2%
+    }\\*[0.0\baselineskip]
+    \textcolor{ultramarineblue}{\rule{\textwidth}{1.4pt}}%
+    \par%
+  }
+  {\@hangfrom{#2}{#3}}%
+}
+\makeatother
+
+
+
+\usepackage[automark,headsepline,markcase=upper]{scrlayer-scrpage}
+
+
+
+\clearpairofpagestyles
+\ohead{\leftmark}
+\rofoot*{\vfootline\hspace{\linepagesep}\pagemark}
+\lefoot*{\pagemark\hspace{5pt}\vfootline}% for twosided document
+
+\addtokomafont{headsepline}{\color{ultramarineblue}}
+
+\newlength\linepagesep
+\setlength{\linepagesep}{5pt}
+\newcommand*\vfootline{{\usekomafont{headsepline}\rule[-2pt]{1pt}{2\ht\strutbox}}}
+
+
+\author{Gerrit Bickendorf}
+\title{Working Title}
+\begin{document}
+\input{titlepage}
+\newpage\null\thispagestyle{empty}\newpage
+\newpage
+\pagenumbering{roman}
+\input{declaration}
+\newpage\null\thispagestyle{empty}\newpage
+\newpage
+\input{abstract}
+\newpage
+\tableofcontents
+\setcounter{page}{0}	
+\newpage
+\pagenumbering{arabic}
+\pagestyle{scrheadings}
+\input{introduction}
+\newpage
+%\input{definitions}
+%\newpage
+\input{sm.tex}
+\newpage
+\input{darkMatter}
+\newpage
+\input{leptophilicDM}
+\newpage
+\input{exprimentalconstrains}
+\newpage
+\newpage
+%\input{model}
+%\newpage
+\input{sm-muon-decay}
+\newpage
+\input{boundsMu}
+\newpage
+\input{sm-pion-decay}
+\newpage
+\input{boundsPi}
+\newpage
+\input{chirSupp}
+\newpage
+\input{conclusion}
+\newpage
+\begin{appendices}
+\input{appendix}
+\end{appendices}
+\nocite{*}
+%\bibliographystyle{h-physrev}
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{JHEP}
+\bibliography{bibliography.bib}
+\end{document}
